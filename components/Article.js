@@ -143,7 +143,7 @@ const articles = document.querySelector('.articles')
 
 function articleMaker (obj){
 
-  const article = document.createElement('div')
+  const article = document.createElement('div');
   const articleTitle = document.createElement('h2');
   const date = document.createElement('p');
   const para1 = document.createElement('p');
