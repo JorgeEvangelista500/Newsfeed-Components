@@ -66,4 +66,5 @@ function menuMaker (obj) {
 
 const newMenu = menuMaker(menuItems)
 
-menuButton.appendChild(newMenu)
+const head = document.querySelector('.header')
+head.appendChild(newMenu)
